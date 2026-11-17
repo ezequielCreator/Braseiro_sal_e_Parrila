@@ -22,7 +22,7 @@
 
             'hero.title': 'CARNES<br><span class="fogo-texto">Y</span><br>PARRILLA',
             'hero.sub': 'Restaurante de carnes asadas a la parrilla, en el corazón del barrio Glória, Joinville.',
-            'hero.reservar': '🔥 Reservar por WhatsApp',
+            'hero.reservar': '🔥Delivery',
             'hero.cardapio': 'Ver menú',
 
             'mq.1': '🔥 MARTES A SÁBADO · 18H A 23H',
@@ -108,7 +108,7 @@
 
             'hero.title': 'MEATS<br><span class="fogo-texto">&amp;</span><br>PARRILLA',
             'hero.sub': 'Grilled meat restaurant in the heart of the Glória neighborhood, Joinville.',
-            'hero.reservar': '🔥 Book on WhatsApp',
+            'hero.reservar': '🔥Delivery',
             'hero.cardapio': 'See menu',
 
             'mq.1': '🔥 TUESDAY TO SATURDAY · 6PM TO 11PM',
