@@ -22,13 +22,21 @@
       <span>BRASEIRO</span>
     </a>
     <div class="nav-links">
-      <a href="#sobre">A Casa</a>
-      <a href="#cardapio">Cardápio</a>
-      <a href="#galeria">Galeria</a>
-      <a href="#resenas">Avaliações</a>
-      <a href="#local">Local &amp; Horários</a>
+      <a href="#sobre" data-i18n="nav.casa">A Casa</a>
+      <a href="#cardapio" data-i18n="nav.cardapio">Cardápio</a>
+      <a href="#galeria" data-i18n="nav.galeria">Galeria</a>
+      <a href="#resenas" data-i18n="nav.avaliacoes">Avaliações</a>
+      <a href="#local" data-i18n="nav.local">Local &amp; Horários</a>
     </div>
-    <a href="https://wa.me/5547999999999" target="_blank" rel="noopener" class="nav-cta">Reservar</a>
+    <div class="nav-right">
+      <!-- Seletor de idioma: só as siglas, discreto -->
+      <div class="lang" role="group" aria-label="Idioma / Idioma / Language">
+        <button type="button" data-lang="pt" class="active" aria-pressed="true" title="Português">PT</button>
+        <button type="button" data-lang="es" aria-pressed="false" title="Español">ES</button>
+        <button type="button" data-lang="en" aria-pressed="false" title="English">EN</button>
+      </div>
+      <a href="https://wa.me/554734400990" target="_blank" rel="noopener" class="nav-cta" data-i18n="nav.reservar">Reservar</a>
+    </div>
   </div>
 </nav>
 
@@ -37,17 +45,11 @@
   <div class="hero-overlay"></div>
   <div class="hero-content">
     <img src="assets/braseiro_noite.jpeg" alt="Braseiro Sal e Parrilla" class="hero-logo" data-aos="fade-down">
-    <h1 class="hero-title" data-aos="fade-up" data-aos-delay="100">
-      CARNE.<br><span class="fogo-texto">FOGO.</span><br>BRASA.
-    </h1>
-    <p class="hero-sub" data-aos="fade-up" data-aos-delay="250">
-      Restaurante de carnes assadas na parrilha, no coração do bairro Glória, Joinville.
-    </p>
+    <h1 class="hero-title" data-aos="fade-up" data-aos-delay="100" data-i18n="hero.title">CARNES<br><span class="fogo-texto">E</span><br>PARRILLA</h1>
+    <p class="hero-sub" data-aos="fade-up" data-aos-delay="250" data-i18n="hero.sub">Restaurante de carnes assadas na parrilha, no coração do bairro Glória, Joinville.</p>
     <div class="hero-actions" data-aos="fade-up" data-aos-delay="400">
-      <a href="https://wa.me/5547999999999" target="_blank" rel="noopener" class="btn btn-fogo">
-        🔥 Reservar pelo WhatsApp
-      </a>
-      <a href="#cardapio" class="btn btn-outline">Ver cardápio</a>
+      <a href="https://wa.me/554734400990" target="_blank" rel="noopener" class="btn btn-fogo" data-i18n="hero.reservar">🔥 Reservar pelo WhatsApp</a>
+      <a href="#cardapio" class="btn btn-outline" data-i18n="hero.cardapio">Ver cardápio</a>
     </div>
   </div>
   <div class="scroll-hint">
@@ -57,33 +59,26 @@
 
 <div class="marquee">
   <div class="marquee-track">
-    <span>🔥 TERÇA A SÁBADO · 18H ÀS 23H</span>
-    <span>🔥 DOMINGO · 11H30 ÀS 14H</span>
-    <span>🔥 DELIVERY DISPONÍVEL</span>
-    <span>🔥 RUA XV DE NOVEMBRO, 2622 · GLÓRIA</span>
-    <span>🔥 TERÇA A SÁBADO · 18H ÀS 23H</span>
-    <span>🔥 DOMINGO · 11H30 ÀS 14H</span>
-    <span>🔥 DELIVERY DISPONÍVEL</span>
-    <span>🔥 RUA XV DE NOVEMBRO, 2622 · GLÓRIA</span>
+    <span data-i18n="mq.1">🔥 TERÇA A SÁBADO · 18H ÀS 23H</span>
+    <span data-i18n="mq.2">🔥 DOMINGO · 11H30 ÀS 14H</span>
+    <span data-i18n="mq.3">🔥 DELIVERY DISPONÍVEL</span>
+    <span data-i18n="mq.4">🔥 RUA XV DE NOVEMBRO, 2622 · GLÓRIA</span>
+    <span data-i18n="mq.1">🔥 TERÇA A SÁBADO · 18H ÀS 23H</span>
+    <span data-i18n="mq.2">🔥 DOMINGO · 11H30 ÀS 14H</span>
+    <span data-i18n="mq.3">🔥 DELIVERY DISPONÍVEL</span>
+    <span data-i18n="mq.4">🔥 RUA XV DE NOVEMBRO, 2622 · GLÓRIA</span>
   </div>
 </div>
 
 <section id="sobre" class="sobre">
   <div class="sobre-texto" data-aos="fade-right">
-    <span class="eyebrow">A casa</span>
-    <h2>Fogo de chão, no ritmo da família</h2>
-    <p>
-      O Braseiro nasceu da paixão por assar carne no ponto certo, no calor direto da brasa.
-      Cada corte passa horas na parrilla até ganhar aquele selo escuro por fora e suculento por dentro —
-      do jeito que se faz há gerações nas parrillas uruguaias.
-    </p>
-    <p>
-      Hoje a casa reúne cortes nobres, lanches artesanais feitos na chapa e um cardápio de delivery
-      para quem quer sentir o gosto da brasa sem sair de casa.
-    </p>
+    <span class="eyebrow" data-i18n="sobre.eyebrow">A casa</span>
+    <h2 data-i18n="sobre.h2">Fogo de chão, no ritmo da família</h2>
+    <p data-i18n="sobre.p1">O Braseiro nasceu da paixão por assar carne no ponto certo, no calor direto da brasa. Cada corte passa horas na parrilla até ganhar aquele selo escuro por fora e suculento por dentro — do jeito que se faz há gerações nas parrillas uruguaias.</p>
+    <p data-i18n="sobre.p2">Hoje a casa reúne cortes nobres, lanches artesanais feitos na chapa e um cardápio de delivery para quem quer sentir o gosto da brasa sem sair de casa.</p>
     <div class="sobre-stats">
-      <div><strong>14,4 mil</strong><span>seguidores no Instagram</span></div>
-      <div><strong>100%</strong><span>carnes na parrilha</span></div>
+      <div><strong data-i18n="sobre.s1n">14,4 mil</strong><span data-i18n="sobre.s1l">seguidores no Instagram</span></div>
+      <div><strong>100%</strong><span data-i18n="sobre.s2l">carnes na parrilha</span></div>
     </div>
   </div>
   <div class="sobre-foto" data-aos="fade-left">
@@ -91,201 +86,233 @@
   </div>
 </section>
 
+<!-- ===== O RITUAL · vídeo de fundo: gastronômico geral ===== -->
 <section class="ritual">
-  <div class="ritual-bg" style="background-image:url('img/carne_grill_molho.png')"></div>
+  <video class="bg-video" data-video muted loop playsinline preload="none" poster="videos/geral_gastronomico.jpg" aria-hidden="true">
+    <source src="videos/geral_gastronomico.mp4" type="video/mp4">
+  </video>
   <div class="ritual-overlay"></div>
   <div class="ritual-content" data-aos="zoom-in">
-    <span class="eyebrow eyebrow-claro">O ritual</span>
-    <h2>A brasa não tem pressa.<br>E a gente também não.</h2>
+    <span class="eyebrow eyebrow-claro" data-i18n="ritual.eyebrow">O ritual</span>
+    <h2 data-i18n="ritual.h2">A brasa não tem pressa.<br>E a gente também não.</h2>
   </div>
 </section>
 
 <section class="ambiente">
-  <span class="eyebrow eyebrow-center">O espaço</span>
-  <h2 class="titulo-center">Muito além da parrilla</h2>
+  <span class="eyebrow eyebrow-center" data-i18n="amb.eyebrow">O espaço</span>
+  <h2 class="titulo-center" data-i18n="amb.title">Muito além da parrilla</h2>
   <div class="ambiente-grid">
     <div class="ambiente-foto grande" data-aos="fade-up">
       <img src="assets/salao_noite.jpeg" alt="Salão interno do Braseiro à noite" data-tilt>
-      <span class="ambiente-legenda">Salão aconchegante, clima de fogo de chão</span>
+      <span class="ambiente-legenda" data-i18n="amb.l1">Salão aconchegante, clima de fogo de chão</span>
     </div>
     <div class="ambiente-foto" data-aos="fade-up" data-aos-delay="100">
       <img src="assets/area_kid.jpeg" alt="Área kids para as crianças" data-tilt>
-      <span class="ambiente-legenda">Área kids para a criançada se divertir</span>
+      <span class="ambiente-legenda" data-i18n="amb.l2">Área kids para a criançada se divertir</span>
     </div>
     <div class="ambiente-foto" data-aos="fade-up" data-aos-delay="200">
-      <img src="assets/drink.jpeg" alt="Drink com hortelã do Braseiro" data-tilt>
-      <span class="ambiente-legenda">Drinks para brindar à mesa</span>
+      <img src="assets/drink-2.jpg" alt="Drinks do Braseiro" data-tilt>
+      <span class="ambiente-legenda" data-i18n="amb.l3">Drinks para brindar à mesa</span>
     </div>
   </div>
 </section>
 
+<!-- ===== CARDÁPIO · vídeo de fundo: carnes (aba Carnes) / gastronômico (demais abas) ===== -->
 <section id="cardapio" class="cardapio">
-  <span class="eyebrow eyebrow-center">Cardápio</span>
-  <h2 class="titulo-center">O que sai da parrilla</h2>
-
-  <div class="tabs">
-    <button class="tab-btn active" data-tab="carnes">Carnes</button>
-    <button class="tab-btn" data-tab="lanches">Lanches</button>
-    <button class="tab-btn" data-tab="delivery">Delivery</button>
+  <div class="cardapio-bg" aria-hidden="true">
+    <video class="bg-video is-active" data-video data-tabvideo="carnes" muted loop playsinline preload="none" poster="videos/carnes.jpg">
+      <source src="videos/carnes.mp4" type="video/mp4">
+    </video>
+    <video class="bg-video" data-video data-tabvideo="gastro" muted loop playsinline preload="none" poster="videos/geral_gastronomico.jpg">
+      <source src="videos/geral_gastronomico.mp4" type="video/mp4">
+    </video>
+    <div class="cardapio-overlay"></div>
   </div>
 
-  <div class="tab-panel active" data-panel="carnes">
-    <div class="prato-card" data-aos="fade-up">
-      <img src="assets/bife_ancho_na_parrilla.jpeg" alt="Bife ancho na parrilla" data-tilt>
-      <div class="prato-info">
-        <h3>Bife Ancho na Brasa</h3>
-        <p>Corte nobre grelhado no ponto, finalizado com alecrim fresco.</p>
-        <span class="prato-preco">Consulte no WhatsApp</span>
-      </div>
-    </div>
-    <div class="prato-card" data-aos="fade-up" data-aos-delay="100">
-      <img src="assets/ancho_assado_na_parrila_con_acompanhamentos.jpeg" alt="Ancho assado na parrilla com acompanhamentos" data-tilt>
-      <div class="prato-info">
-        <h3>Ancho Assado na Parrilla</h3>
-        <p>Corte nobre, macio e extremamente suculento. Acompanha arroz, farofa, vinagrete e fritas.</p>
-        <span class="prato-preco">Consulte no WhatsApp</span>
-      </div>
-    </div>
-    <div class="prato-card" data-aos="fade-up" data-aos-delay="200">
-      <img src="assets/ancho_assado_na_parrila_con_acompanhamentos .jpeg" alt="Prato de carne grelhada com acompanhamentos" data-tilt>
-      <div class="prato-info">
-        <h3>Prato da Parrilla</h3>
-        <p>Corte grelhado, arroz branco, farofa e mandioca.</p>
-        <span class="prato-preco">Consulte no WhatsApp</span>
-      </div>
-    </div>
-  </div>
+  <div class="cardapio-inner">
+    <span class="eyebrow eyebrow-center" data-i18n="card.eyebrow">Cardápio</span>
+    <h2 class="titulo-center" data-i18n="card.title">O que sai da parrilla</h2>
 
-  <div class="tab-panel" data-panel="lanches">
-    <div class="prato-card destaque" data-aos="fade-up">
-      <span class="prato-badge">🔥 Mais pedido</span>
-      <img src="assets/burguer_mas_pedido_do_braseiro.jpeg" alt="Burger duplo com queijo e alface, o mais pedido do Braseiro" data-tilt>
-      <div class="prato-info">
-        <h3>O Mais Pedido</h3>
-        <p>Feito na parrilla, com sabor que conquista na primeira mordida.</p>
-        <span class="prato-preco">Consulte no WhatsApp</span>
+    <div class="tabs">
+      <button class="tab-btn active" data-tab="carnes" data-i18n="tab.carnes">Carnes</button>
+      <button class="tab-btn" data-tab="lanches" data-i18n="tab.lanches">Lanches</button>
+      <button class="tab-btn" data-tab="delivery" data-i18n="tab.delivery">Delivery</button>
+    </div>
+
+    <div class="tab-panel active" data-panel="carnes">
+      <div class="prato-card video" data-aos="fade-up">
+        <video data-video src="assets/Carnes.mp4" alt="Carnes na parrilla" poster="videos/carnes.jpg" muted loop playsinline preload="none" aria-label="Carnes na parrilla"></video>
+        <div class="prato-info">
+          <h3 data-i18n="d.carnes.t">Carnes</h3>
+          <p data-i18n="d.carnes.p">Corte nobre grelhado na parrilla, com capa de gordura dourada, suculento e finalizado com alecrim.</p>
+        </div>
+      </div>
+      <div class="prato-card" data-aos="fade-up" data-aos-delay="100">
+        <img src="assets/picanha-fateada.jpeg" alt="Picanha fatiada com farofa e vinagrete" data-tilt>
+        <div class="prato-info">
+          <h3 data-i18n="d.picfat.t">Picanha Fatiada</h3>
+          <p data-i18n="d.picfat.p">Fatias no ponto, servidas na chapa de ferro com farofa e vinagrete.</p>
+        </div>
+      </div>
+      <div class="prato-card" data-aos="fade-up" data-aos-delay="200">
+        <img src="assets/chuleta.jpeg" alt="Chuleta na parrilla com arroz, fritas, farofa e vinagrete" data-tilt>
+        <div class="prato-info">
+          <h3>Chuleta</h3>
+          <p data-i18n="d.chuleta.p">Corte com osso assado na brasa. Acompanha arroz, fritas, farofa, vinagrete e maionese de batata.</p>
+        </div>
+      </div>
+      <div class="prato-card" data-aos="fade-up">
+        <img src="assets/linguica campeira.jpeg" alt="Linguiça campeira grelhada na chapa" data-tilt>
+        <div class="prato-info">
+          <h3 data-i18n="d.ling.t">Linguiça Campeira</h3>
+          <p data-i18n="d.ling.p">Linguiça artesanal assada na parrilla, com a casca crocante e o interior suculento.</p>
+        </div>
+      </div>
+      <div class="prato-card" data-aos="fade-up" data-aos-delay="100">
+        <img src="assets/tulipa.jpeg" alt="Tulipa de frango crocante com molho e cebolinha" data-tilt>
+        <div class="prato-info">
+          <h3>Tulipa</h3>
+          <p data-i18n="d.tulipa.p">Frango empanado e crocante, servido com molho cremoso e cebolinha fresca.</p>
+        </div>
+      </div>
+      <div class="prato-card prato-cta" data-aos="fade-up" data-aos-delay="200">
+        <div class="prato-cta-inner">
+          <h3 data-i18n="cta.t">Peça agora 🔥</h3>
+          <p data-i18n="cta.p">Fale direto com a casa e monte seu pedido.</p>
+          <a href="https://wa.me/554734400990" target="_blank" rel="noopener" class="btn btn-fogo" data-i18n="cta.b">Chamar no WhatsApp</a>
+        </div>
       </div>
     </div>
-    <div class="prato-card" data-aos="fade-up" data-aos-delay="100">
-      <img src="assets/duplo_cheddar_con_bacon.jpeg" alt="Duplo Cheddar com bacon crocante" data-tilt>
-      <div class="prato-info">
-        <h3>Duplo Cheddar</h3>
-        <p>Dois blends na parrilla, cheddar cremoso e bacon crocante por cima.</p>
-        <span class="prato-preco">Consulte no WhatsApp</span>
+
+    <div class="tab-panel" data-panel="lanches">
+      <div class="prato-card destaque" data-aos="fade-up">
+        <span class="prato-badge" data-i18n="d.mp.badge">🔥 Mais pedido</span>
+        <img src="assets/burguer_mas_pedido_do_braseiro.jpeg" alt="Burger duplo com queijo e alface, o mais pedido do Braseiro" data-tilt>
+        <div class="prato-info">
+          <h3 data-i18n="d.mp.t">O Mais Pedido</h3>
+          <p data-i18n="d.mp.p">Feito na parrilla, com sabor que conquista na primeira mordida.</p>
+        </div>
+      </div>
+      <div class="prato-card" data-aos="fade-up" data-aos-delay="100">
+        <img src="assets/duplo_cheddar_con_bacon.jpeg" alt="Duplo Cheddar com bacon crocante" data-tilt>
+        <div class="prato-info">
+          <h3 data-i18n="d.dc.t">Duplo Cheddar</h3>
+          <p data-i18n="d.dc.p">Dois blends na parrilla, cheddar cremoso e bacon crocante por cima.</p>
+        </div>
+      </div>
+      <div class="prato-card" data-aos="fade-up" data-aos-delay="200">
+        <img src="assets/barbeqeue.jpeg" alt="Hambúrguer Barbecue com bacon, cheddar e molho barbecue" data-tilt>
+        <div class="prato-info">
+          <h3>Barbecue</h3>
+          <p data-i18n="d.bbq.p">Hambúrguer de 150g no pão brioche, cheddar, duas fatias de bacon em tiras e molho barbecue.</p>
+          <span class="prato-preco" data-i18n="d.bbq.preco">Consulte no WhatsApp</span>
+        </div>
+      </div>
+      <div class="prato-card" data-aos="fade-up" data-aos-delay="100">
+        <img src="assets/burguer_eggon.jpeg" alt="Hambúrguer Eggon com ovo e bacon" data-tilt>
+        <div class="prato-info">
+          <h3>Eggon</h3>
+          <p data-i18n="d.egg.p">Hambúrguer de 150g no pão brioche, queijo mussarela, ovo, bacon, alface-americana, tomate, cebola roxa e maionese caseira.</p>
+        </div>
       </div>
     </div>
-    <div class="prato-card" data-aos="fade-up" data-aos-delay="100">
-      <img src="assets/barbeqeue.jpeg" alt="barbeqiu" data-tilt>
-      <div class="prato-info">
-        <h3>Barbecue</h3>
-        <p>Hamburguer de 150g no pao brioche,cheddar,duas fatias de bacon tira e barbeceu.</p>
-        <span class="prato-preco">Consulte no WhatsApp</span>
+
+    <div class="tab-panel" data-panel="delivery">
+      <div class="prato-card" data-aos="fade-up">
+        <img src="assets/combo_casal.jpeg" alt="Combo para casal" data-tilt>
+        <div class="prato-info">
+          <h3 data-i18n="d.casal.t">Combo para Casal</h3>
+          <p data-i18n="d.casal.p">O sabor da casa embalado para comer onde quiser.</p>
+        </div>
       </div>
-    </div>
-  </div>
-  <div class="prato-card" data-aos="fade-up" data-aos-delay="100">
-      <img src="assets/burguer_eggon.jpeg" alt="eggon" data-tilt>
-      <div class="prato-info">
-        <h3>Eggon</h3>
-        <p>Hamburguer de 150g no pão brioche,queijo mussarela, ovo, bacon, alfacee-americana, tomate, cebola, roxa e maionesa caseira.</p>
-        <span class="prato-preco">Consulte no WhatsApp</span>
+      <div class="prato-card" data-aos="fade-up" data-aos-delay="100">
+        <img src="assets/combo_esfomeado.jpeg" alt="Combo esfomeado" data-tilt>
+        <div class="prato-info">
+          <h3 data-i18n="d.esf.t">Combo Esfomeado</h3>
+          <p data-i18n="d.esf.p">Cortada na hora, direto da grelha para sua casa.</p>
+        </div>
       </div>
-    </div>
-  <div class="tab-panel" data-panel="delivery">
-    <div class="prato-card" data-aos="fade-up">
-      <img src="assets/chef_mostrando_corte_de_carne.jpeg" alt="Corte de carne fatiado" data-tilt>
-      <div class="prato-info">
-        <h3>Marmitas da Brasa</h3>
-        <p>O sabor da parrilla embalado para comer onde quiser.</p>
-        <span class="prato-preco">Consulte no WhatsApp</span>
-      </div>
-    </div>
-    <div class="prato-card" data-aos="fade-up" data-aos-delay="100">
-      <img src="assets/entraña_na_grelheada.jpeg" alt="Entraña fatiada na grelha" data-tilt>
-      <div class="prato-info">
-        <h3>Entraña Fatiada</h3>
-        <p>Cortada na hora, direto da grelha para sua casa.</p>
-        <span class="prato-preco">Consulte no WhatsApp</span>
-      </div>
-    </div>
-    <div class="prato-card prato-cta" data-aos="fade-up" data-aos-delay="200">
-      <div class="prato-cta-inner">
-        <h3>Peça agora 🔥</h3>
-        <p>Fale direto com a casa e monte seu pedido.</p>
-        <a href="https://wa.me/5547999999999" target="_blank" rel="noopener" class="btn btn-fogo">Chamar no WhatsApp</a>
+      <div class="prato-card prato-cta" data-aos="fade-up" data-aos-delay="200">
+        <div class="prato-cta-inner">
+          <h3 data-i18n="cta.t">Peça agora 🔥</h3>
+          <p data-i18n="cta.p">Fale direto com a casa e monte seu pedido.</p>
+          <a href="https://wa.me/554734400990" target="_blank" rel="noopener" class="btn btn-fogo" data-i18n="cta.b">Chamar no WhatsApp</a>
+        </div>
       </div>
     </div>
   </div>
 </section>
 
 <section id="galeria" class="galeria">
-  <span class="eyebrow eyebrow-center">Direto da parrilla</span>
-  <h2 class="titulo-center">Galeria</h2>
+  <span class="eyebrow eyebrow-center" data-i18n="gal.eyebrow">Direto da parrilla</span>
+  <h2 class="titulo-center" data-i18n="gal.title">Galeria</h2>
   <div class="galeria-grid">
-    <img src="assets/burguer_mas_pedido_do_braseiro.jpeg" alt="Burger mais pedido do Braseiro" data-tilt>
-    <img src="assets/ancho_assado_na_parrila_con_acompanhamentos .jpeg" alt="Ancho assado na parrilla com acompanhamentos">
+    <img src="assets/burguer_mas_pedido_do_braseiro.jpeg" alt="Burger duplo mais pedido do Braseiro" data-tilt>
     <img src="assets/duplo_cheddar_con_bacon.jpeg" alt="Duplo Cheddar" data-tilt>
-    <img src="assets/chef_mostrando_corte_de_carne.jpeg" alt="Chef mostrando corte de carne">
-    <img src="assets/entraña_na_grelheada.jpeg" alt="Entraña na grelha" data-tilt>
-    <img src="assets/pao_na_manteca_de_tomate.jpeg" alt="Pão na manteiga com tomate">
-    <img src="assets/bife_ancho_no_grelheado.jpeg" alt="Bife ancho grelhado" data-tilt>
-    <img src="assets/corte_de_carne_no_garfield.jpeg" alt="Corte de carne no garfo">
-    <img src="assets/prato_completo_de_parrilla.jpeg" alt="Prato completo da parrilla" data-tilt>
+    <video data-video src="assets/Geral gastronômico.mp4" poster="videos/geral_gastronomico.jpg" muted loop playsinline preload="none" aria-label="Vídeo de comida"></video>
+    <img src="assets/chuleta.jpeg" alt="Chuleta com arroz, fritas, farofa e vinagrete" data-tilt>
+    <img src="assets/linguica campeira.jpeg" alt="Linguiça campeira na chapa" data-tilt>
+    <img src="assets/pao_na_manteca_de_tomate.jpeg" alt="Pão na manteiga com tomate" data-tilt>
+    <img src="assets/bife-ancho.jpg" alt="Bife ancho na parrilla" data-tilt>
+    <img src="assets/barbeqeue.jpeg" alt="Hambúrguer Barbecue" data-tilt>
+    <img src="assets/tulipa.jpeg" alt="Tulipa de frango crocante" data-tilt>
+    <img src="assets/drink-2.jpg" alt="Caipirinha de maracujá" data-tilt>
+    <video data-video src="assets/Geral drinks.mp4" poster="assets/Geral drinks.jpg" muted loop playsinline preload="none" aria-label="Vídeo de drinks"></video>
   </div>
 </section>
 
 <section id="resenas" class="resenas">
-  <span class="eyebrow eyebrow-center">O que dizem no Google</span>
-  <h2 class="titulo-center">Depoimentos de quem já provou</h2>
+  <span class="eyebrow eyebrow-center" data-i18n="res.eyebrow">O que dizem no Google</span>
+  <h2 class="titulo-center" data-i18n="res.title">Depoimentos de quem já provou</h2>
   <div class="resenas-grid">
     <div class="resena-card" data-aos="fade-up">
       <div class="resena-topo">
         <span class="resena-avatar">M</span>
         <div>
           <strong>Marcos Rieper</strong>
-          <span class="resena-meta">221 avaliações no Google · há 6 meses</span>
+          <span class="resena-meta" data-i18n="res.m1">221 avaliações no Google · há 6 meses</span>
         </div>
       </div>
       <div class="resena-estrelas">★★★★★</div>
-      <p>"Excelentes hambúrgueres. O atendimento também é excelente, muito atenciosos e simpáticos, desde o garçom ao caixa. O custo está dentro do normal e o ambiente é agradável. Tem bom estacionamento e estava aberto domingo à noite. Ótimo pra ir depois da missa."</p>
+      <p lang="pt-BR">"Excelentes hambúrgueres. O atendimento também é excelente, muito atenciosos e simpáticos, desde o garçom ao caixa. O custo está dentro do normal e o ambiente é agradável. Tem bom estacionamento e estava aberto domingo à noite. Ótimo pra ir depois da missa."</p>
     </div>
     <div class="resena-card" data-aos="fade-up" data-aos-delay="100">
       <div class="resena-topo">
         <span class="resena-avatar">F</span>
         <div>
           <strong>Filipe Chaves</strong>
-          <span class="resena-meta">Local Guide · 17 avaliações · há 2 meses</span>
+          <span class="resena-meta" data-i18n="res.m2">Local Guide · 17 avaliações · há 2 meses</span>
         </div>
       </div>
       <div class="resena-estrelas">★★★★★</div>
-      <p>"Já experimentei muitos hambúrgueres na vida, e o Braseiro está entre o top 3. Lanche saboroso, leve, bem preparado..."</p>
+      <p lang="pt-BR">"Já experimentei muitos hambúrgueres na vida, e o Braseiro está entre o top 3. Lanche saboroso, leve, bem preparado..."</p>
     </div>
     <div class="resena-card" data-aos="fade-up" data-aos-delay="200">
       <div class="resena-topo">
         <span class="resena-avatar">A</span>
         <div>
           <strong>Andre Carl</strong>
-          <span class="resena-meta">Local Guide · 245 avaliações · há 1 mês</span>
+          <span class="resena-meta" data-i18n="res.m3">Local Guide · 245 avaliações · há 1 mês</span>
         </div>
       </div>
       <div class="resena-estrelas">★★★★★</div>
-      <p>"Comi o hambúrguer Braseiro, 300 gramas de carne, mas é um lanche leve, que não te estufa, sinal de ingredientes de qualidade. Batata sequinha feita na hora!! Parabéns!!"</p>
+      <p lang="pt-BR">"Comi o hambúrguer Braseiro, 300 gramas de carne, mas é um lanche leve, que não te estufa, sinal de ingredientes de qualidade. Batata sequinha feita na hora!! Parabéns!!"</p>
     </div>
   </div>
-  <a href="https://maps.app.goo.gl/bwnpwJ3cUvPjhnfS7?g_st=ac" target="_blank" rel="noopener" class="resenas-link">Ver todas as avaliações no Google Maps →</a>
+  <a href="https://maps.app.goo.gl/bwnpwJ3cUvPjhnfS7?g_st=ac" target="_blank" rel="noopener" class="resenas-link" data-i18n="res.link">Ver todas as avaliações no Google Maps →</a>
 </section>
 
 <section id="local" class="local">
   <div class="local-info" data-aos="fade-right">
-    <span class="eyebrow">Local &amp; horários</span>
-    <h2>Venha sentir o cheiro da brasa</h2>
+    <span class="eyebrow" data-i18n="loc.eyebrow">Local &amp; horários</span>
+    <h2 data-i18n="loc.h2">Venha sentir o cheiro da brasa</h2>
     <ul class="local-lista">
-      <li><strong>📍 Endereço</strong>Rua XV de Novembro, 2622 — Glória, Joinville - SC</li>
-      <li><strong>🕕 Terça a sábado</strong>18h às 23h</li>
-      <li><strong>🕦 Domingo</strong>11h30 às 14h</li>
-      <li><strong>🚫 Segunda-feira</strong>Fechado</li>
+      <li data-i18n="loc.l1"><strong>📍 Endereço</strong>Rua XV de Novembro, 2622 — Glória, Joinville - SC</li>
+      <li data-i18n="loc.l2"><strong>🕕 Terça a sábado</strong>18h às 23h</li>
+      <li data-i18n="loc.l3"><strong>🕦 Domingo</strong>11h30 às 14h</li>
+      <li data-i18n="loc.l4"><strong>🚫 Segunda-feira</strong>Fechado</li>
     </ul>
-    <a href="https://wa.me/5547999999999" target="_blank" rel="noopener" class="btn btn-fogo">Fazer reserva</a>
+    <a href="https://wa.me/554734400990" target="_blank" rel="noopener" class="btn btn-fogo" data-i18n="loc.btn">Fazer reserva</a>
   </div>
   <div class="local-mapa" data-aos="fade-left">
     <iframe
@@ -296,20 +323,20 @@
   </div>
 </section>
 
-<a href="https://wa.me/5547999999999" target="_blank" rel="noopener" class="whats-float" aria-label="Chamar no WhatsApp">
+<a href="https://wa.me/554734400990" target="_blank" rel="noopener" class="whats-float" aria-label="Chamar no WhatsApp">
   <svg viewBox="0 0 32 32" fill="currentColor"><path d="M16.02 3C9.4 3 4 8.37 4 15c0 2.26.62 4.37 1.71 6.19L3 29l8.02-2.63A12.9 12.9 0 0 0 16.02 27C22.63 27 28 21.63 28 15S22.63 3 16.02 3Zm7.53 18.46c-.32.9-1.87 1.72-2.58 1.79-.66.07-1.5.1-2.42-.15-.56-.15-1.27-.4-2.2-.78-3.87-1.67-6.4-5.55-6.6-5.81-.19-.26-1.58-2.1-1.58-4 0-1.9 1-2.83 1.35-3.22.35-.39.77-.49 1.03-.49.26 0 .52 0 .74.01.24.01.56-.09.87.67.32.77 1.09 2.66 1.19 2.85.1.19.16.42.03.68-.13.26-.19.42-.38.65-.19.23-.4.51-.57.68-.19.19-.39.4-.17.78.23.39 1.01 1.67 2.17 2.7 1.5 1.34 2.76 1.75 3.15 1.94.39.19.61.16.84-.1.23-.26.97-1.13 1.23-1.52.26-.39.52-.32.87-.19.35.13 2.24 1.06 2.62 1.25.39.19.65.29.74.45.1.16.1.9-.22 1.79Z"/></svg>
 </a>
 
 <footer class="rodape">
   <img src="assets/braseiro_sal_e_parrilla.jpeg" alt="Braseiro Sal e Parrilla" class="rodape-logo">
   <p>Rua XV de Novembro, 2622 — Glória, Joinville - SC</p>
-  <p>Terça a sábado 18h-23h · Domingo 11h30-14h</p>
+  <p data-i18n="foot.hours">Terça a sábado 18h-23h · Domingo 11h30-14h</p>
   <div class="rodape-links">
     <a href="https://www.instagram.com/braseiro_saleparrilla" target="_blank" rel="noopener">Instagram</a>
     <a href="https://wa.me/554734400990" target="_blank" rel="noopener">WhatsApp</a>
   </div>
-  <p class="rodape-copy">&copy; 2026 Braseiro Sal e Parrilla. Todos os direitos reservados.</p>
-  <p> <em> <strong>Criado por : Ezequiel Alcala.</strong></em></p>
+  <p class="rodape-copy" data-i18n="foot.copy">&copy; 2026 Braseiro Sal e Parrilla. Todos os direitos reservados.</p>
+  <p> <em> <strong data-i18n="foot.by">Criado por : Ezequiel Alcala.</strong></em></p>
   <p><em> <strong> projects:</strong></em> <a href="https://github.com/ezequielCreator">Git Hub</a></p>
 </footer>
 
@@ -320,6 +347,7 @@
 
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script src="https://unpkg.com/vanilla-tilt@1.8.1/dist/vanilla-tilt.min.js"></script>
+<script src="l18n.js"></script>
 <script src="script.js"></script>
 </body>
 </html>
